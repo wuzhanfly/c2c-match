@@ -3,7 +3,7 @@ import { DirectSecp256k1HdWallet } from "@cosmjs/proto-signing";
 import { MsgExecuteContract } from "cosmjs-types/cosmwasm/wasm/v1/tx";
 import {calculateFee, coin, GasPrice} from "@cosmjs/stargate";
 
-const rpcEndpoint = "http://118.175.0.246:47657"; // Your RPC endpoint
+const rpcEndpoint = "http://118.xxx:47657"; // Your RPC endpoint
 const mnemonic = "remove clarify notice gesture yard off live equip special stay cotton hospital novel canoe reduce trust payment ostrich mom winner equip jungle shallow regular"; // Your mnemonic
 const contractAddress = "me1zqtwuecz2k9g5xs6q4vsahnvj7rkax8gwmanygppeudvmzv6txqqwddezj"; // Your CW20 contract address
 const sellId = 4; // ID of the sell order to match
